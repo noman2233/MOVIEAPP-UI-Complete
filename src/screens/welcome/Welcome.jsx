@@ -10,11 +10,7 @@ import SimpleButton from '../../components/SimpleButton';
 import {welcomeScreen} from '../../../constants/constants';
 
 const Welcome = ({navigation}) => {
-  useEffect(() => {
-    setTimeout(() => {
-      navigation.navigate('Parent');
-    }, 100);
-  });
+ 
 
   return (
     <>
